@@ -21,6 +21,8 @@ cnt, pos, neg, neut = 0, 0, 0, 0
 temp_pos,temp_neg, temp_neut, temp_len = 0, 0, 0, 0
 temp = []
 
+line2.append([',', ','])
+
 for index in range(len(line)):
     if cnt > 0:
         cnt -= 1
